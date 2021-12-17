@@ -36,9 +36,11 @@ def solution(testcase):
 
     ### TO-DO:
     ###  문제 풀이에 해당하는 코드를 작성하세요.
-    
+    print(testcase)
     # 주어진 입력 데이터가 solution 함수의 입력으로 들어온다고 가정합니다.
     # testcase는 각 input이 주어진 텍스트 파일이라고 가정합니다.
     # 데이터를 불러와서 정답을 print하는 solution 함수를 완성하세요.
 
     return
+
+solution("Hello World")
