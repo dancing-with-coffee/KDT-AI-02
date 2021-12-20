@@ -43,7 +43,7 @@ def solution(testcase):
     # e.g. testcase = 2, 2단을 출력하세요.
     for i in range(1, 10):
         print(f"{testcase} * {i} = {testcase * i}")
-
+        
 solution(2)
 solution(5)
 solution(9)
