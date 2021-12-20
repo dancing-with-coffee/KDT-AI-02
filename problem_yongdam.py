@@ -44,7 +44,7 @@ def solution(testcase):
     # e.g. testcase = 2, 2단을 출력하세요.
 
     for number in range(1, 10):
-        print(f"{testcase} X {number} = {testcase * number}")
+        print("%d X %d = %d" % (testcase, number, testcase*number))
 
     return
 
