@@ -31,16 +31,21 @@ output :
 70
 """
 
-
 def solution(testcase):
 
     ### TO-DO:
     ###  문제 풀이에 해당하는 코드를 작성하세요.
-    print(testcase)
     # 주어진 입력 데이터가 solution 함수의 입력으로 들어온다고 가정합니다.
-    # testcase는 각 input이 주어진 텍스트 파일이라고 가정합니다.
+    # testcase는 숫자 하가 들어온다고 가정합니다.
     # 데이터를 불러와서 정답을 print하는 solution 함수를 완성하세요.
-
+    
+    ### testcase가 구구단의 단 이라고 생각하고, 해당 단을 print문을 사용하여 출력하는 코드를 작성하세요.
+    # e.g. testcase = 2, 2단을 출력하세요.
+    for i in range(1, 10):
+        print(f"{testcase} * {i} = {testcase * i}")
+        
     return
 
-solution("Hello World")
+solution(2)
+solution(5)
+solution(9)
